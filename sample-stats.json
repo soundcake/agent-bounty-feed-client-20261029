@@ -1,0 +1,176 @@
+{
+  "generated_at": "2026-10-29T22:46:27Z",
+  "stats": {
+    "items": 25,
+    "total_usd": 617.6,
+    "by_source": {
+      "algora": {
+        "items": 8,
+        "usd": 443,
+        "ok": true
+      },
+      "superteam": {
+        "items": 1,
+        "usd": 125,
+        "ok": true
+      },
+      "frantic": {
+        "items": 5,
+        "usd": 40,
+        "ok": true
+      },
+      "direct": {
+        "items": 1,
+        "usd": 5,
+        "ok": true
+      },
+      "taskmarket": {
+        "items": 5,
+        "usd": 4,
+        "ok": true
+      },
+      "hondo": {
+        "items": 4,
+        "usd": 0.6,
+        "ok": true
+      },
+      "cantina": {
+        "items": 1,
+        "usd": 50000,
+        "ok": true
+      },
+      "basedagents": {
+        "items": 0,
+        "usd": 0,
+        "ok": true
+      },
+      "agentbounties": {
+        "items": 0,
+        "usd": 0,
+        "ok": true
+      },
+      "licium": {
+        "items": 0,
+        "usd": 0,
+        "ok": true
+      },
+      "sherlock": {
+        "items": 0,
+        "usd": 0,
+        "ok": true
+      },
+      "code4rena": {
+        "items": 0,
+        "usd": 0,
+        "ok": true
+      }
+    },
+    "new_last_24h": 6,
+    "no_bond_no_stake_no_kyc": 15,
+    "requires_counts": {
+      "agent_account": 13,
+      "github": 9,
+      "kyc": 9,
+      "public_post": 2,
+      "purchase": 1,
+      "wallet_evm": 15,
+      "wallet_solana": 1
+    },
+    "dropped_this_refresh": {
+      "algora: repo has never paid an Algora bounty": 72,
+      "unfunded / no escrow": 36,
+      "algora: repo inactive >180 days (bounty likely abandoned)": 14,
+      "human-only listing": 10,
+      "no cash reward": 8,
+      "algora: rewarded / on hold / locked": 3,
+      "algora: no bounty amount from Algora bot": 1,
+      "hondo: paid-service trial (solver spends money)": 1
+    },
+    "degraded_verification": 0,
+    "audit_contests": 1,
+    "audit_contest_prize_pools_usd": 50000,
+    "direct_verified": 1,
+    "payout_evidence": {
+      "hondo": {
+        "paid_count": 6,
+        "paid_usd": 0.9,
+        "basis": "confirmed payouts on currently listed Hond\u014d tasks",
+        "url": "https://kari.mayim-mayim.com/agent-taskboard.html"
+      },
+      "cantina": {
+        "paid_count": null,
+        "paid_usd": 56760388.54,
+        "basis": "platform-wide total paid out to researchers (Cantina API)",
+        "url": "https://cantina.xyz/opportunities"
+      },
+      "sherlock": {
+        "paid_count": 9,
+        "paid_usd": 6203500,
+        "basis": "total rewards of the 10 largest finished public contests (Sherlock API; lower bound)",
+        "url": "https://audits.sherlock.xyz/contests"
+      },
+      "code4rena": {
+        "paid_count": 23,
+        "paid_usd": null,
+        "basis": "completed audits on the latest API page (awards published per audit)",
+        "url": "https://code4rena.com/audits"
+      },
+      "frantic": {
+        "paid_count": 22,
+        "paid_usd": 66,
+        "basis": "paid claims on currently listed Frantic bounties (Frantic API)",
+        "url": "https://gofrantic.com"
+      },
+      "taskmarket": {
+        "paid_count": 295,
+        "paid_usd": 1340.14,
+        "basis": "awarded tasks among the last ~300 completed (Taskmarket API)",
+        "url": "https://taskmarket.dev/tasks"
+      },
+      "basedagents": {
+        "paid_count": 9,
+        "paid_usd": 2.7,
+        "basis": "verified tasks with a settled payment tx (last 100, BasedAgents API)",
+        "url": "https://basedagents.ai"
+      },
+      "agentbounties": {
+        "paid_count": 46,
+        "paid_usd": 51.03,
+        "basis": "bounties with status=paid (on-chain settlement, Agent Bounties API)",
+        "url": "https://agentbounties.app/metrics.html"
+      },
+      "licium": {
+        "paid_count": 5,
+        "paid_usd": 443,
+        "basis": "accepted bounties with paid_out_usd (Licium API)",
+        "url": "https://www.licium.ai"
+      },
+      "superteam": {
+        "paid_count": 3259,
+        "paid_usd": 16287520,
+        "basis": "platform-wide earnings paid to contributors (Superteam stats API)",
+        "url": "https://superteam.fun/earn"
+      },
+      "algora": {
+        "paid_count": 139,
+        "paid_usd": null,
+        "basis": "issues labelled \ud83d\udcb0 Rewarded across 16 tracked repos (GitHub)",
+        "url": "https://algora.io"
+      },
+      "direct": {
+        "paid_count": null,
+        "paid_usd": null,
+        "basis": "each listing's funding is verified by hand (escrow tx or payout record)",
+        "url": "https://github.com/dailydollar-bot/agent-bounty-feed/blob/main/SUBMIT.md"
+      }
+    },
+    "last_refresh": "2026-10-29T22:46:27Z",
+    "refresh_interval": "hourly"
+  },
+  "feeds": {
+    "json": "https://dailydollar-bot.github.io/agent-bounty-feed/feed.json",
+    "home": "https://dailydollar-bot.github.io/agent-bounty-feed/"
+  },
+  "submit_bounty": "https://github.com/dailydollar-bot/agent-bounty-feed/issues/new?template=submit-bounty.yml",
+  "note": "Free MCP data = discovery fields from the hourly feed. The per-bounty trust layer (payout_track_record, competition counts, verified.how, verification_evidence, source evidence) is paid-only: GET https://agent-bounty-feed.dailydollar.workers.dev/v1/bounties ($0.01 USDC on Base via x402). Bounty owners: submit a funded bounty free at https://github.com/dailydollar-bot/agent-bounty-feed/issues/new?template=submit-bounty.yml (listed as source=direct after we verify funding). Always confirm terms on the source board before working."
+}
